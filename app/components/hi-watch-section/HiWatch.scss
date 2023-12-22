@@ -1,0 +1,72 @@
+
+.hi-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 428px 0 54px 0;
+    background-image: url("../../../public/HiWatch-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    gap: 15px 0;
+    .hi-watch-title{
+        display: flex;
+        align-items: start;
+        gap: 0 5px;
+        >h2{
+            color: #fff;
+            font-family: var(--main-font);
+            max-width: 450px;
+            font-size: 51.188px;
+            display: flex;
+            font-weight: 700;
+        }
+        >i{
+            color: #fff;
+            font-family: var(--main-font);
+            max-width: 450px;
+            font-size: 50.188px;
+            display: flex;
+
+        }
+    }
+    span{
+        color: #fff;
+        text-align: center;
+        font-family: var(--main-font);
+        max-width: 200px;
+        font-size: 20.188px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.28px;
+    }
+    >p{
+        color: #fff;
+        text-align: center;
+        font-family: Arial;
+        font-size: 26.25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px; /* 118.095% */
+        letter-spacing: 0.112px;
+    }
+    .links-HiWatch{
+        display: flex;
+        gap: 0 24px;
+        >a{
+            padding: 12px 22px;
+            background-color: #fff;
+            border-radius: 980px;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            font-family: var(--main-font);
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 117.647% */
+            letter-spacing: -0.374px;
+        }
+    }
+}

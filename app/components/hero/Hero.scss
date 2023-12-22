@@ -1,0 +1,43 @@
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 428px 0 54px 0;
+    background-image: url("../../../public/hero-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    >h2{
+        color: #1D1D1F;
+        text-align: center;
+        font-family: var(--main-font);
+        max-width: 450px;
+        font-size: 51.188px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 117.216% */
+        letter-spacing: -0.28px;
+    }
+    >p{
+        color: #1D1D1F;
+        text-align: center;
+        font-family: Arial;
+        font-size: 26.25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px; /* 118.095% */
+        letter-spacing: 0.112px;
+    }
+    >a{
+        color: #06C;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20.016px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px; /* 144.887% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+    }
+}

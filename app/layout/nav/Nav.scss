@@ -1,0 +1,31 @@
+nav{
+    background-color: #161617CC;
+    padding: 20px;
+    // position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(1000px);
+}
+.nav__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        list-style: none;
+        .bi-apple{
+            font-size: 20px;
+        }
+        color: #fff;
+        a{            
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            font-family: var(--main-font);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: -0.224px;
+        }
+    }
+}

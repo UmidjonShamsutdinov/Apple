@@ -1,0 +1,45 @@
+.section5-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 51px 0 420px 0;
+    background-image: url("../../../public/section5-1.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    gap: 15px 0;
+    >h2{
+        color: #1D1D1F;
+        font-family: var(--main-font);
+        max-width: 450px;
+        font-size: 36.188px;
+        display: flex;
+        font-weight: 700;
+    }       
+    >p{
+        color: #1D1D1F;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20.25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px; /* 118.095% */
+        letter-spacing: 0.112px;
+    }
+    .links-HiWatch{
+        display: flex;
+        gap: 0 24px;
+        >a{
+            display: flex;
+            align-items: end;
+            color: #06C;
+            font-family: var(--main-font);
+            font-size: 17.016px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.231px;
+            text-decoration: none;
+        }
+    }
+}

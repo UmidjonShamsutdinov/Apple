@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "./scss/root.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
+
+.section-title{
+    display: flex;
+    >i{
+        font-size: 30px;
+        align-self: flex-start;
+    }
+    >h2{
+        color: #1D1D1F;
+        font-family: var(--main-font);
+        max-width: 450px;
+        font-size: 36.188px;
+        display: flex;
+        font-weight: 700;
+    }       
+
+}
