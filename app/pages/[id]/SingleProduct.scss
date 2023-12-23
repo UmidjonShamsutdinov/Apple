@@ -1,0 +1,16 @@
+.single__product{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+
+.single__product-information{
+    display: flex;
+    width: 100%;
+}
+
+.image{
+    width: 50%;
+    height: 100vh !important;
+}
