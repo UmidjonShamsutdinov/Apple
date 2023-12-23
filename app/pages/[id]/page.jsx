@@ -1,9 +1,15 @@
+import { singleProduct } from '@/app/api'
 import React from 'react'
 
-const page = () => {
+const SingleProduct = async({params}) => {
+
+    const product = await singleProduct(params?.id)
+    console.log(product);
   return (
-    <div>page</div>
+    <div>SingleProduct
+        <img src={product?.images[1]} alt="" />
+    </div>
   )
 }
 
-export default page
+export default SingleProduct

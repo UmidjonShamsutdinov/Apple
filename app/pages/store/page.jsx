@@ -4,11 +4,9 @@ import Link from 'next/link'
 import React from 'react'
 import "./Products.scss"
 import BasicRating from '@/app/components/rating/page'
+import { allProducts } from '@/app/api'
 
-export async function allProducts(product){
-  const resp = await fetch(`https://dummyjson.com${product}`)
-  return resp.json()
-}
+
 
 const Store = async () => {
   const {products} = await allProducts("/products")
@@ -41,12 +39,3 @@ const Store = async () => {
 }
 
 export default Store
-    // id: 30,
-    // title: 'Key Holder',
-    // description: 'Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality',
-    // price: 30,
-    // discountPercentage: 2.92,
-    // rating: 4.92,
-    // stock: 54,
-    // brand: 'Golden',
-    // category: 'home-decoration',
